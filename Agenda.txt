@@ -1,0 +1,24 @@
+Type classes vs Sub-typing and type-class support in cats
+
+Many people uses sub-typing/inheriance because they are more familiar with it, but would be better
+of using type-classes
+
+Type class 
+Idea:Defines a set of functions that can have different implementations depending on the type of data.
+
+Sub class/Sub type
+Idea: Define a general behavior and make it more specialized for special instances (inheritance).
+
+
+
+Advantages with type-classes over sub-types
+
+1. Less Classes coupling, less messy dependencies.
+
+2. More technical flexibility, properties like identity-function etc for free in many cases, 
+sometimes the compiler can have problem understanding multiple link of inheritance,
+are able to add a behavior to primitive or external types.
+
+3. Library support that gives you a lot of code for free.
+
+
